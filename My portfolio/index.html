@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mahalakshmi S - Portfolio</title>
+  <link rel="icon" type="image/png" href="./Mahapht.jpg" sizes="32x32" />
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>Mahalakshmi S</h1>
+    <p>Full Stack Developer | Java Programmer | Web Developer</p>
+    <img src="./Mahapht.jpg" alt="Mahalakshmi S" class="profile-pic" style="width: 280px; height: 390px; border-radius: 9%; margin-top: 10px;">
+    <button class="toggle-btn" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+  </header>
+
+  <nav class="navbar">
+    <button onclick="showSection('about')">About</button>
+    <button onclick="showSection('skills')">Skills</button>
+    <button onclick="showSection('projects')">Projects</button>
+    <button onclick="showSection('certifications')">Certifications</button>
+    <button onclick="showSection('internships')">Internships</button>
+    <button onclick="showSection('contact')">Contact</button>
+  </nav>
+
+  <div class="container">
+    
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate <span class="highlight">Computer Science Engineering</span> student, skilled in <span class="highlight">Java</span>, <span class="highlight">Web Development</span>, and <span class="highlight">Full Stack Projects</span>. I actively contribute to platforms like <span class="highlight">SkillRack</span>, <span class="highlight">HackerRank</span>, and <span class="highlight">LeetCode</span>.
+        Final-year Computer Science student with a strong foundation in Object-Oriented Programming and problem
+solving using Java. Currently focused on MERN stack development with hands-on experience in building full
+stack applications. 
+      </p>
+    </section>
+
+    <section id="skills" class="section" style="display: none;">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Java, C, Data Structures</li>
+        <li><strong>Web:</strong> HTML, CSS, JavaScript, React (Basics)</li>
+        <li><strong>Tools:</strong> Git, GitHub, VS Code</li>
+        <li><strong>Soft Skills:</strong> Communication, Teamwork, Leadership, Adaptability</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section" style="display: none;">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Eco-Spiritual Platform:</strong> Communication platform for elderly care.</li>
+        <li><strong>Future Med-AI:</strong> AI-powered e-commerce site for healthcare products.</li>
+        <li><strong>Doctor Appointment Booking System:</strong> A web app that lets patients book appointments, view available slots, and manage doctor profiles using Angular, Node.js, and MySQL.</li>
+      </ul>
+    </section>
+
+    <section id="certifications" class="section" style="display: none;">
+      <h2>Certifications</h2>
+      <ul>
+        <li>AWS Certified Cloud Practitioner (2025)</li>
+        <li>NPTEL - IoT (2024)</li>
+        <li>NPTEL - Cloud Computing (2024)</li>
+      </ul>
+    </section>
+
+    <section id="internships" class="section" style="display: none;">
+      <h2>Internship Experience</h2>
+      <ul>
+        <li><strong>Frontend Intern @ Pacific Creations (Jan 2024)</strong> — Developed responsive UI using HTML & CSS.</li>
+       
+      </ul>
+    </section>
+
+    <section id="contact" class="section" style="display: none;">
+      <h2>Contact</h2>
+      <ul>
+        <li>📞 8754031794</li>
+        <li>📧 <a href="mailto:mahamah12033@gmail.com">mahamah12033@gmail.com</a></li>
+        <li>💼 <a href="https://www.linkedin.com/in/mahalakshmi-s-7a99b1257" target="_blank">LinkedIn</a></li>
+        <li>🐙 <a href="https://github.com/mahasundaram" target="_blank">GitHub</a></li>
+      </ul>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Mahalakshmi. All Rights Reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
